@@ -7,9 +7,16 @@
 //============================================================================
 
 #include <iostream>
+#include "Maths.h"
 using namespace std;
 
+Maths maths;
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
+
+	maths = new Maths();
+
+	int sum = maths.Addition(5,5);
+
 }
