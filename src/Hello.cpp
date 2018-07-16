@@ -19,10 +19,12 @@ int main() {
 
 	cout << "I am working with git one years back ";
 
-	return 0;
 
 	// Second print message from another user
 
 	cout << "I am also working with same file";
+
+
+	return 0;
 
 }
