@@ -17,13 +17,14 @@ int main() {
 
 	// I am adding new print
 
-	cout << "I am working with git one years back ";
+	cout << "I am working with git one years back "  << endl;;
 
 
 	// Second print message from another user
 
-	cout << "I am also working with same file";
+	cout << "I am also working with same file" << endl;;
 
+	cout << "I am going to commit again " << endl;
 
 	return 0;
 
