@@ -19,13 +19,15 @@ int main() {
 
 	cout << "I am working with git one years back "  << endl;;
 
-
 	// Second print message from another user
 
 	cout << "I am also working with same file" << endl;;
 
 	cout << "I am going to commit again " << endl;
 
-	return 0;
+	cout << "This print message added from first user";
 
+	cout << "This print message added from Second user "
+
+	return 0;
 }
