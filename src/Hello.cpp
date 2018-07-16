@@ -12,7 +12,7 @@ using namespace std;
 
 Maths math;
 int main() {
-	cout << "!!!Hello World!!!"; // prints !!!Hello World!!!
+	cout << "!!!Hello World!!!\n"; // prints !!!Hello World!!!
 	cout << "Sum of 5 + 5 is  "<< math.Addition(5,5) << endl;
 	return 0;
 }
