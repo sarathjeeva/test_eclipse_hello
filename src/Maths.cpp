@@ -6,16 +6,17 @@
  */
 
 #include "Maths.h"
+#include <stdio.h>
 using namespace std;
 
 Maths::Maths() {
 	// TODO Auto-generated constructor stub
-	cout<< "Auto-generated constructor stub";
+	printf( "Auto-generated constructor stub");
 }
 
 Maths::~Maths() {
 	// TODO Auto-generated destructor stub
-	cout<< "Auto-generated constructor stub";
+	printf("Auto-generated constructor stub");
 }
 
 int Maths::Addition(int a, int b){

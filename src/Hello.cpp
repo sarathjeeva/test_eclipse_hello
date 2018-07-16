@@ -10,13 +10,9 @@
 #include "Maths.h"
 using namespace std;
 
-Maths maths;
+Maths math;
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	cout << "!!!Hello World!!!"; // prints !!!Hello World!!!
+	cout << "Sum of 5 + 5 is  "<< math.Addition(5,5) << endl;
 	return 0;
-
-	maths = new Maths();
-
-	int sum = maths.Addition(5,5);
-
 }
